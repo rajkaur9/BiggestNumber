@@ -4,12 +4,14 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using namespace std;
+
 int main()
 {
 
-        int first = 0;
-        int second = 0;
-        int biggest = 0;
+        int first=0;
+        int second=0;
+        int biggest;
        
 
   std::cout<<"Please enter a whole number:";
@@ -18,20 +20,15 @@ int main()
   std::cout<<"Please enter another whole number:";
   std::cin>>second;
 
-  biggest >=first;
-  biggest>=second;
-
-  if (biggest>=first)
+  if (first>=second)
   { 
-          if (biggest >= first)
-                  cout<<biggest ;
-
+          first=biggest;
+}
+ 
+if (second>=first)
+{                       
+        second=biggest;
   }
-if (biggest>=second)
-       { 
-               (biggest >=second)
-                       ;cout<<biggest ;
-       }
   std::cout<<"Of those two numbers, the biggest is: "<< biggest ;
   cout<<"Thank you for playing.";
   
