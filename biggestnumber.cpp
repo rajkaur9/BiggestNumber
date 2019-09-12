@@ -10,6 +10,7 @@ int main()
         int first = 0;
         int second = 0;
         int biggest = 0;
+       
 
   std::cout<<"Please enter a whole number:";
   std::cin>>first;
@@ -17,11 +18,22 @@ int main()
   std::cout<<"Please enter another whole number:";
   std::cin>>second;
 
+  biggest >=first;
+  biggest>=second;
 
-  std::cout<<"Of those two numbers, the biggest is: "<<biggest<<endl;
-  std::cin>>biggest;
+  if (biggest>=first)
+  { 
+          if (biggest >= first)
+                  cout<<biggest ;
 
-  std::cout<<std::endl<<"Thank you for playing.";
+  }
+if (biggest>=second)
+       { 
+               (biggest >=second)
+                       ;cout<<biggest ;
+       }
+  std::cout<<"Of those two numbers, the biggest is: "<< biggest ;
+  cout<<"Thank you for playing.";
   
   return 0;
 }
