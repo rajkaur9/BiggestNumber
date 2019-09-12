@@ -1,36 +1,34 @@
 //Author: Raj Kaur
 #include<iostream>
+#include<string> 
 
 using std::cin;
 using std::cout;
 using std::endl;
-using namespace std;
 
 int main()
 {
-
-        int first=0;
-        int second=0;
-        int biggest;
+        int number1;
+        int number2;
        
 
-  std::cout<<"Please enter a whole number:";
-  std::cin>>first;
+  cout<<"Please enter a whole number:";
+  cin>>number1;
 
-  std::cout<<"Please enter another whole number:";
-  std::cin>>second;
+  cout<<"Please enter another whole number:";
+  cin>>number2;
 
-  if (first>=second)
+ if (number1>number2)
   { 
-          first=biggest;
+        cout<<"Of those two numbers, the biggest is: "<<number1; 
 }
- 
-if (second>=first)
+         
+else 
 {                       
-        second=biggest;
+        cout<<"Of those two numbers, the biggest is: "<<number2;
   }
-  std::cout<<"Of those two numbers, the biggest is: "<< biggest ;
-  cout<<"Thank you for playing.";
+  
+  std::cout<<std::endl<< "Thank you for playing.";
   
   return 0;
 }
