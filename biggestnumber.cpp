@@ -15,6 +15,7 @@ int main()
   cout<<"Please enter a whole number:";
   cin>>number1;
 
+ 
   cout<<"Please enter another whole number:";
   cin>>number2;
 
@@ -24,6 +25,7 @@ int main()
 }
          
 else 
+
 {                       
         cout<<"Of those two numbers, the biggest is: "<<number2;
   }
